@@ -1,0 +1,10 @@
+.GridContainer {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	align-content: center;
+	height: 100vh;
+	grid-gap: 10px;
+
+} // GridContainer
+
+

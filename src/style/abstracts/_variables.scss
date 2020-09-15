@@ -1,0 +1,39 @@
+
+/// font family
+$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+$text-color: rgb(19, 19, 19) !default;
+$brand-color: rgb(229, 0, 80) !default;
+
+//Opacity
+$blm2: rgba(19, 19, 19, 0.2) !default;
+$blm4: rgba(19, 19, 19, 0.4) !default;
+$blm6: rgba(68, 68, 68, 0.6) !default;
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px !default;
+
+$breakpoints: (
+	mild: 768px,
+	medium: 1024px,
+	mediumHot: 1900px,
+	hot: 2500px,
+	spicy: 3750px
+) !default;
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '/assets/' !default;
+
+///
+/// Add up vertically to 100vh
+
+
+///
+/// position: aboslute 
+$footerVH: 48px;
+
