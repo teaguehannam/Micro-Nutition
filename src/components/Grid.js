@@ -1,14 +1,20 @@
 import React from 'react';
 
 // Components
-
+import Header from './Heada.js';
+import Footer from './Foota.js';
+import LandingPage from '../pages/LandingPage.js';
 
 const Grid = () => {
 	
 	return (
-		<div className="GridContainer">
+		<div className="GridContainer Border">
 
-			<h2>Test</h2>
+			<Header />
+			<LandingPage />
+		{/*
+			<Footer />
+		*/}
 	
 		</div>
 	)

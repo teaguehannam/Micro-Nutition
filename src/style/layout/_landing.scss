@@ -1,0 +1,154 @@
+.LandingC {
+	overflow-y: auto;
+	grid-row: 3 / span 9;
+	grid-column: 1 / span 12;
+	width: 100%;
+	justify-self: center;
+
+	.HelloC{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		max-width: 1200px;
+		margin: 75px auto;
+
+
+		.TitleC {
+			height: calc(63vh - 32px);
+			display: flex;
+			background-color: rgba(19,19,19,0.9);
+			border-radius: 16px;
+			box-shadow: 0px 0px 16px 4px rgba(252,252,252,0.4);
+			flex-direction: column;
+			justify-content: space-between;
+			border-top: 3px rgba(191,192,192,0) solid;
+			border-bottom: 3px rgba(191,192,192,0) solid;
+			transition: 0.35s;
+
+			&:hover {
+				border-top: 3px rgba(191,191,191,0.4) solid;
+				border-bottom: 3px rgba(191,191,191,0.7) solid;
+
+			} // TitleC:&hover
+
+		} // Title (1st)
+
+		.HowC {
+			width: 100%;
+			max-width: 1440px;
+			margin: 75px auto 0px auto;
+			background-color: rgba(36,29,29,0.75);
+
+			h5 {
+				font-size: 3rem;
+				line-height: 6rem;
+				margin: 0; padding: 0;
+
+			} // h5
+
+		} // HowC [How to use blurb] (2nd)
+
+		.ApproachC  {
+			background-color: rgba(32,28,30,0.4);
+			display: flex;
+			align-items: center;
+			justify-content: space-evenly;
+			border-bottom: 4px rgba(192,192,200,0) solid;
+			transition: 0.7s;
+			width: 100%;
+			max-width: 1200px;
+			min-height: 400px;
+
+
+			&:hover {
+				border-bottom: 4px rgba(192,192,200,0.7) solid;
+			} // ApproachC:hover
+
+
+			.Split {
+				background-color: rgba(19,19,19,0.9);
+				box-shadow: 2px 6px 12px 1px black;
+				width: 20%;
+				border-radius: 12px;
+
+				p{
+					font-size: 1rem;
+					line-height: 2rem;
+
+				}
+			
+			} // Split [1][2][3]
+
+		} // ApproachC (3rd)
+
+
+	} // HelloCFirst section)
+
+
+	.FeaturesTitleC {
+		margin: 128px auto 32px auto;
+		max-width: 1200px;
+		min-width: 350px;
+		background-color: rgba(25,25,36,0.5);
+		font-size: 3rem;
+		line-height: 9rem;
+		backdrop-filter: blur(24px) saturate(90%);
+
+	} // FeaturesTitleC (4th)
+
+	.Row {
+		min-width: 432px;
+		max-width: 800px;
+		width: 100%;
+		background-color: rgba(19,19,19,0.8);
+		backdrop-filter: blur(32px) saturate(60%);
+		display: flex;
+		justify-content: space-evenly;		
+		box-shadow: 0px 0px 20px grey;
+		margin: 0px auto;
+		padding: 32px 0px;
+
+
+		&:hover {
+
+			div {
+				border: 1px rgba(219,219,219,0.93) solid;
+
+			} // div
+
+		} // Row:hover
+
+		div {
+			min-width: 216px;
+			width: 33%;
+			backdrop-filter: blur(32px) saturate(60%);
+			background-color: rgba(19,19,19,0.8);
+			border: 1px rgba(219,219,219,0.33) solid;
+			transition: 0.66s;
+
+		} // [Current] [Future]
+
+
+	} // Row (5th)	
+
+	.ResearchC {
+		max-width: 800px;
+		margin: 32px auto;
+		background-color: rgba(32,24,36,0.8);
+		backdrop-filter: blur(12px) saturate(60%);
+		box-shadow: 0px 0px 12px 3px black;
+		padding: 24px 0px;
+		transition: 1.2s;
+
+		&:hover {
+			box-shadow: 0px 0px 20px grey;
+
+
+		} // ResearchC:hover
+
+
+
+	}  // ResearchC
+
+
+} // LandingC (Whole page)

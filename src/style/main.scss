@@ -19,8 +19,10 @@
 
 // 4. Layout-related sections
 @import
-  'layout/grid';
-
+  'layout/grid',
+  'layout/header',
+  'layout/footer',
+  'layout/landing';
 
 // 5. Components
 @import
