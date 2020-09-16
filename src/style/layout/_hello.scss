@@ -1,0 +1,20 @@
+.HelloC {
+	color: black;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 1197px;
+	margin: 128px auto;
+	background-color: rgba(252,252,252,1);
+	border-radius: 16px;
+	justify-content: space-between;
+	border: 3px rgba(191,192,192,0) solid;
+	transition: 0.35s;
+
+	img {
+		max-width: 500px;
+		margin: 0px auto;
+
+	} // img
+
+} // HelloC (1st)

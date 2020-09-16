@@ -2,8 +2,8 @@ import React from 'react';
 
 // Components
 import Header from './Heada.js';
-import Footer from './Foota.js';
 import LandingPage from '../pages/LandingPage.js';
+//import Footer from './Foota.js';
 
 const Grid = () => {
 	

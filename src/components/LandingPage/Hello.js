@@ -1,14 +1,14 @@
 import React from 'react';
 
+import Categories from '../../resources/IntroCategories.png'
 
 const Hello = () => {
 	return (
 		<div className="HelloC">
 		
-			<div className="TitleC">
-				<h2>Micro-Nutrient analytics</h2>
-				<p>Take care of your microbiome</p>
-			</div>
+			<h2>Micro-Nutrient analytics</h2>
+			<img src={Categories} alt="Micro-Nutrient Categories" />
+			<p>Optimize your microbiome</p>
 
 		</div>
 	)

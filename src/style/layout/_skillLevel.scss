@@ -1,0 +1,56 @@
+.SkillLevelC {
+	max-width: 1440px;
+	margin: 0px auto;
+
+	.SkillTitle {
+
+	} // SkillTitle
+
+	.Scale {
+		display: grid;
+		grid-gap: 0px 32px;
+		grid-template-columns: repeat(3,1fr);
+		grid-template-rows: 1fr 1fr 1fr
+							1fr 1fr 1fr
+							1fr 1fr 1fr;
+
+		div{
+			background-color: white;
+			color: black;
+		} // div
+
+		.Easy {
+			grid-column: 1 / span 1;
+			grid-row: 1 / span 3;
+
+		} // Easy
+
+		.EasyImg{
+
+		} // EasyImg
+
+		.Intermediate {
+			grid-column: 2 / span 1;
+			grid-row: 3 / span 3;
+
+		} // Intermediate
+
+		.IntermediateImg{
+
+		} // IntermediateImg
+
+		.Advanced {
+			grid-column: 3 / span 1;
+			grid-row: 6 / span 3;
+
+		} // Advanced
+
+		.AdvancedImg {
+			grid-column: 3 / span 1;
+			grid-row: 1 / span 6;
+
+		} // AdvancedImg
+
+	} // Scale
+
+} // SkillLevelC

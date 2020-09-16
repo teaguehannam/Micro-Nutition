@@ -20,8 +20,8 @@ const Grid = () => {
 			</div>
 
 			<div className="Legal">
-				<a href="#">Culture</a>
-				<a href="#">Goal List</a>
+				<a href="#">Privacy</a>
+				<a href="#">Legal</a>
 			</div>
 
 

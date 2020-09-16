@@ -1,0 +1,19 @@
+.ResearchC {
+		max-width: 800px;
+		margin: 0px auto 64px auto;
+		background-color: rgba(32,24,36,0.8);
+		backdrop-filter: blur(12px) saturate(60%);
+		box-shadow: 0px 0px 3px black;
+		border: 5px rgba(252,252,252,0) solid;
+		border-radius: 3px;
+		padding: 24px 0px 48px 0px;
+		transition: 0.45s;
+
+		&:hover {
+			box-shadow: 0px 0px 3px 9px rgba(39,9,9,0.2);
+			border: 5px rgba(252,252,192,0.1) solid;
+
+
+		} // ResearchC:hover
+
+	}  // ResearchC (2nd)
