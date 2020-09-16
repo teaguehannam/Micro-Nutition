@@ -13,10 +13,12 @@ const LandingPage = () => {
 		
 			<Hello />
 
-			<FeaturesTitle />
-			<div className="Row">
-				<CurrentFeatures />
-				<FutureFeatures />
+			<div className="FeaturesBox">
+				<FeaturesTitle />
+				<div className="Row">
+					<CurrentFeatures />
+					<FutureFeatures />
+				</div>
 			</div>
 
 			<Research />
