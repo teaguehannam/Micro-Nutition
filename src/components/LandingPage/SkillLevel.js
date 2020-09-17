@@ -1,5 +1,9 @@
 import React from 'react';
 
+import HealthyFood from '../../resources/HealthyFood.png';
+import Rabbit from '../../resources/rabbit.gif';
+import DnaTypes from '../../resources/dnaTypes.jpg';
+
 const SkillLevel = () => {
 	return (
 		<div className="SkillLevelC">
@@ -9,24 +13,41 @@ const SkillLevel = () => {
 			</div>
 
 			<div className="Scale">
-				<div className="Easy">
+				<div id="Overview" className="Easy">
 					<h3>Basics</h3>
 					<p>Keep track of the foods you eat.</p>
 					<p>System will monitor micro-nutrients,</p>
 					<p>and provide nutrient leveling foods.</p>
 				</div>
 
-				<div className="Intermediate">
-					<h3>Intermediate</h3>
-					<p>Simulate nutrient intake from meal or diet plans.</p>
-					<p>Customize nutitional goals and periodic reports.</p>
+				<div className="EasyImg">
+					<img src={HealthyFood} alt="Bouque of healthy food" />
 				</div>
 
-				<div className="Advanced">
-					<h3>Advanced Features</h3>
+				<div id="Overview" className="Intermediate">
+					<h3>Intermediate</h3>
+					<p>Simulate nutrient intake from meal plans.</p>
+					<p>Keep track of liked and unliked foods.</p>
+					<p>Customize goals and periodic reports.</p>
+				</div>
+
+				<div className="IntermediateImg">
+					<img src={Rabbit} alt="Cute Rabbit" />
+				</div>
+
+				<div id="Overview" className="Advanced">
+					<h3>Advanced</h3>
 					<p>Consolidated case studies, dedicated to:</p>
-					<p>Anti-Aging, Disease Prevention</p>
-					<p>Nootropics, Medicine</p>
+					<div className="Categories">
+						<p>Anti-Aging</p>
+						<p>Disease</p>
+						<p>Medicine</p>
+						<p>Performance</p>
+					</div>
+				</div>
+
+				<div className="AdvancedImg">
+					<img src={DnaTypes} alt="Dna strand states" />
 				</div>
 
 

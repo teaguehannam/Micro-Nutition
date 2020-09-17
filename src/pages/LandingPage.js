@@ -8,6 +8,7 @@ import Research from '../components/LandingPage/Research.js';
 import SkillLevel from '../components/LandingPage/SkillLevel.js';
 import Contact from '../components/LandingPage/Contact.js';
 
+
 const LandingPage = () => {
 	return (
 		<div className="LandingC">

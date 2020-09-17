@@ -8,8 +8,13 @@
 	background-color: rgba(252,252,252,1);
 	border-radius: 16px;
 	justify-content: space-between;
-	border: 3px rgba(191,192,192,0) solid;
-	transition: 0.35s;
+	border: 16px rgba(191,192,192,0.75) solid;
+	transition: 0.2s;
+
+	&:hover {
+		border: 16px rgba(191,192,192,1) solid;
+
+	} // HelloC:hover
 
 	img {
 		max-width: 500px;
