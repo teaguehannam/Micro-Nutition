@@ -1,0 +1,36 @@
+.RegisterC {
+	color: black;
+	margin: 0px auto 192px auto;
+	background-color: rgba(252,252,252,1);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	.Title {
+		width: 100%;
+
+		h2 {
+			min-width: 500px;
+			margin: 0px auto;
+			margin: 0; padding: 0;
+			line-height: 5rem;
+			font-size: 2.5rem;
+		}
+	}
+
+	.Box {
+		min-height: 400px;
+		margin-top: 16px;
+		padding: 0px 60px;
+
+		input {
+			margin-top: 128px;
+		}
+
+		button {
+			margin: 5px 0px;
+			max-width: 200px;
+		} // button
+	}
+
+} // RegisterC

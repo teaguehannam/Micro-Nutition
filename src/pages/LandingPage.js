@@ -7,6 +7,7 @@ import CurrentFeatures from '../components/LandingPage/CurrentFeatures.js';
 import Research from '../components/LandingPage/Research.js';
 import SkillLevel from '../components/LandingPage/SkillLevel.js';
 import Contact from '../components/LandingPage/Contact.js';
+import Register from '../components/LandingPage/Register.js';
 
 
 const LandingPage = () => {
@@ -20,6 +21,7 @@ const LandingPage = () => {
 			<FeaturesTitle />
 			<CurrentFeatures />
 			<SkillLevel />
+			<Register />
 			<Contact />
 			
 		</div>

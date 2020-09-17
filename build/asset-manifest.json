@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.ef56b982.chunk.css",
-    "main.js": "/static/js/main.994474c9.chunk.js",
-    "main.js.map": "/static/js/main.994474c9.chunk.js.map",
+    "main.css": "/static/css/main.c738d7c0.chunk.css",
+    "main.js": "/static/js/main.2362de74.chunk.js",
+    "main.js.map": "/static/js/main.2362de74.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.26a92672.js",
     "runtime-main.js.map": "/static/js/runtime-main.26a92672.js.map",
-    "static/js/2.3e08b515.chunk.js": "/static/js/2.3e08b515.chunk.js",
-    "static/js/2.3e08b515.chunk.js.map": "/static/js/2.3e08b515.chunk.js.map",
+    "static/js/2.c65565cd.chunk.js": "/static/js/2.c65565cd.chunk.js",
+    "static/js/2.c65565cd.chunk.js.map": "/static/js/2.c65565cd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.74621c49fb025043bac838066864699c.js": "/precache-manifest.74621c49fb025043bac838066864699c.js",
+    "precache-manifest.68d94077f4ef1bb6de969d65287e3752.js": "/precache-manifest.68d94077f4ef1bb6de969d65287e3752.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.ef56b982.chunk.css.map": "/static/css/main.ef56b982.chunk.css.map",
-    "static/js/2.3e08b515.chunk.js.LICENSE.txt": "/static/js/2.3e08b515.chunk.js.LICENSE.txt",
-    "static/media/HealthyFood.png": "/static/media/HealthyFood.dec42997.png",
+    "static/css/main.c738d7c0.chunk.css.map": "/static/css/main.c738d7c0.chunk.css.map",
+    "static/js/2.c65565cd.chunk.js.LICENSE.txt": "/static/js/2.c65565cd.chunk.js.LICENSE.txt",
+    "static/media/EmailAnimation.gif": "/static/media/EmailAnimation.66e26284.gif",
+    "static/media/HealthyFood.png": "/static/media/HealthyFood.c9d05075.png",
     "static/media/IntroCategories.png": "/static/media/IntroCategories.120d9285.png",
     "static/media/main.scss": "/static/media/bg_spec.a07dd1cc.jpg",
-    "static/media/dnaTypes.jpg": "/static/media/dnaTypes.3ced0281.jpg",
+    "static/media/dnaStates.jpg": "/static/media/dnaStates.3ced0281.jpg",
     "static/media/rabbit.gif": "/static/media/rabbit.b9b3b8e5.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.26a92672.js",
-    "static/js/2.3e08b515.chunk.js",
-    "static/css/main.ef56b982.chunk.css",
-    "static/js/main.994474c9.chunk.js"
+    "static/js/2.c65565cd.chunk.js",
+    "static/css/main.c738d7c0.chunk.css",
+    "static/js/main.2362de74.chunk.js"
   ]
 }

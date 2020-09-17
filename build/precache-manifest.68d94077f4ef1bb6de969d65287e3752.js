@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "377d9add349edb648e1d31788a688f37",
+    "revision": "8c56df04c0aac8021b2ccd962d9cc1a4",
     "url": "/index.html"
   },
   {
-    "revision": "7124b9ab8e8916f0458e",
-    "url": "/static/css/main.ef56b982.chunk.css"
+    "revision": "f1d2b7034a513cc2ea77",
+    "url": "/static/css/main.c738d7c0.chunk.css"
   },
   {
-    "revision": "9ec3b580d0a397b8703c",
-    "url": "/static/js/2.3e08b515.chunk.js"
+    "revision": "64d74786849997e238c6",
+    "url": "/static/js/2.c65565cd.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.3e08b515.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.c65565cd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7124b9ab8e8916f0458e",
-    "url": "/static/js/main.994474c9.chunk.js"
+    "revision": "f1d2b7034a513cc2ea77",
+    "url": "/static/js/main.2362de74.chunk.js"
   },
   {
     "revision": "f04d5254a4e6dedf9cbf",
     "url": "/static/js/runtime-main.26a92672.js"
   },
   {
-    "revision": "dec42997f058f9bc3508766471b67309",
-    "url": "/static/media/HealthyFood.dec42997.png"
+    "revision": "66e26284cd9d43597c1b99d1de008402",
+    "url": "/static/media/EmailAnimation.66e26284.gif"
+  },
+  {
+    "revision": "c9d050754c61b106620643980b599c5d",
+    "url": "/static/media/HealthyFood.c9d05075.png"
   },
   {
     "revision": "120d928564ea45c193e82846906eb1a8",
@@ -37,7 +41,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "3ced0281eeea308f464a37dfccff4c95",
-    "url": "/static/media/dnaTypes.3ced0281.jpg"
+    "url": "/static/media/dnaStates.3ced0281.jpg"
   },
   {
     "revision": "b9b3b8e5d540aa4776b22836205bacdf",

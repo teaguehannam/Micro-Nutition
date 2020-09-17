@@ -34,11 +34,11 @@ const Grid = () => {
 
 			<nav>
 				<a href="">Introduction</a>
-				<a href="">Features</a>
 				<a href="">Research</a>
+				<a href="">Features</a>
+				<a href="">Register</a>
 				<a href="">Contact</a>
 			</nav>
-
 
 		</div>
 	)

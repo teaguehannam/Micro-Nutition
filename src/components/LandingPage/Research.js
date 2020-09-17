@@ -8,8 +8,8 @@ const Research = () => {
 			<p>Based on latest info and studies from</p>
 			
 			<div className="Links">
-				<a href="https://pubchem.ncbi.nlm.nih.gov/">PubChem</a>
 				<a href="https://www.ncbi.nlm.nih.gov/">NCBI</a>
+				<a href="https://pubchem.ncbi.nlm.nih.gov/">PubChem</a>
 			</div>
 
 		</div>

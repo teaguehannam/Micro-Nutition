@@ -2,14 +2,14 @@ import React from 'react';
 
 import HealthyFood from '../../resources/HealthyFood.png';
 import Rabbit from '../../resources/rabbit.gif';
-import DnaTypes from '../../resources/dnaTypes.jpg';
+import DnaStates from '../../resources/dnaStates.jpg';
 
 const SkillLevel = () => {
 	return (
 		<div className="SkillLevelC">
 		
 			<div className="SkillTitle">
-				<h2>As involved as you want to be!</h2>
+				<h2>Beginning to advanced users</h2>
 			</div>
 
 			<div className="Scale">
@@ -27,7 +27,7 @@ const SkillLevel = () => {
 				<div id="Overview" className="Intermediate">
 					<h3>Intermediate</h3>
 					<p>Simulate nutrient intake from meal plans.</p>
-					<p>Keep track of liked and unliked foods.</p>
+					<p>Keep track of liked and disliked foods.</p>
 					<p>Customize goals and periodic reports.</p>
 				</div>
 
@@ -47,7 +47,7 @@ const SkillLevel = () => {
 				</div>
 
 				<div className="AdvancedImg">
-					<img src={DnaTypes} alt="Dna strand states" />
+					<img src={DnaStates} alt="Dna strand states" />
 				</div>
 
 
