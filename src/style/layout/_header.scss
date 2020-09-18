@@ -134,6 +134,11 @@
 
 
 	} // nav
+
+	@include respond-to('medium') {
+		grid-column: 1 / span 12;
+		width: 100%;
+		max-width: 1226px;
+	}
  
 } // Molecules
-

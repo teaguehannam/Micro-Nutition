@@ -12,11 +12,13 @@
 		h2 {
 			min-width: 500px;
 			margin: 0px auto;
-			margin: 0; padding: 0;
+			padding: 0;
 			line-height: 5rem;
 			font-size: 2.5rem;
-		}
-	}
+	
+		} // h2
+	
+	} // Title
 
 	.Box {
 		min-height: 400px;
@@ -25,12 +27,48 @@
 
 		input {
 			margin-top: 128px;
-		}
+		} // input
 
 		button {
 			margin: 5px 0px;
 			max-width: 200px;
+		
 		} // button
-	}
+
+	} // Box
+
+	@include respond-to('small') {
+		display: flex;
+		flex-direction: column;
+
+		.Title {
+
+			h2 {
+				min-width: 0px;
+				line-height: 3rem;
+				font-size: 2rem;
+
+			}
+
+		} // Title
+
+		.Box {
+			min-height: 200px;
+			width: 100%;
+
+
+			input {
+				margin-top: 32px;
+			} // input
+
+			button {
+				margin: 5px 0px;
+				max-width: 200px;
+			
+			} // button
+
+		} // Box
+
+	} // media query - small
 
 } // RegisterC

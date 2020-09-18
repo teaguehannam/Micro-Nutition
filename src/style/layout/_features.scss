@@ -1,57 +1,68 @@
-	.FeaturesTitleC {
-		color: white;
-		background-color: rgba(25,25,36,0.9);
-		margin: 0px auto;
-		min-width: 350px;
-		width: 100%;
-		max-width: 1197px;
-		border-top: 12px rgba(42,42,50,1) solid;
-		border-right: 12px rgba(42,42,50,1) solid;
-		border-left: 12px rgba(42,42,50,1) solid;
-		transition: 0.6s;
-		display: flex;
-		justify-content: center;
-		border-radius: 12px 12px 0px 0px;
+.FeaturesTitleC {
+	color: white;
+	background-color: rgba(25,25,36,0.9);
+	margin: 0px auto;
+	min-width: 350px;
+	width: 100%;
+	max-width: 1197px;
+	border-top: 12px rgba(42,42,50,1) solid;
+	border-right: 12px rgba(42,42,50,1) solid;
+	border-left: 12px rgba(42,42,50,1) solid;
+	transition: 0.6s;
+	display: flex;
+	justify-content: center;
+	border-radius: 12px 12px 0px 0px;
 
-		h2 {
-			line-height: 1.6rem;
-			font-size: 3.2rem;
+	h2 {
+		line-height: 1.6rem;
+		font-size: 3.2rem;
 
-		} // h2
+	} // h2
 
-	} // FeaturesTitleC (3rd)
+} // FeaturesTitleC (3rd)
 
-	.FeaturesC {
-		background-color: rgba(255,252,252,0.9);
-		width: 100%;
-		max-width: 1197px;
-		border-right: 12px rgba(42,42,50,1) solid;
-		border-bottom: 12px rgba(42,42,50,1) solid;
-		border-left: 12px rgba(42,42,50,1) solid;
-		margin: 0px auto 128px auto;
-		padding-bottom: 24px;
-		border-radius: 0px 0px 12px 12px;
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: repeat(1, 1fr);
-		grid-gap: 32px 64px;
-		justify-content: space-evenly;
+.FeaturesC {
+	background-color: rgba(255,252,252,0.9);
+	width: 100%;
+	max-width: 1197px;
+	border-right: 12px rgba(42,42,50,1) solid;
+	border-bottom: 12px rgba(42,42,50,1) solid;
+	border-left: 12px rgba(42,42,50,1) solid;
+	margin: 0px auto 128px auto;
+	padding-bottom: 24px;
+	border-radius: 0px 0px 12px 12px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	grid-gap: 32px 64px;
+	justify-content: space-evenly;
 
-		.Card {
-			width: 80%;
-			margin: 32px auto 0px auto;
-			padding: 4px 0px;
-			background-color: rgba(19,19,19,0.8);
-			box-shadow: 0px 0px 12px black;
-			border-radius: 12px;
-			border: 2px rgba(109,109,109,0.5) solid;
-			transition: 0.3s;
+	.Card {
+		width: 80%;
+		margin: 32px auto 0px auto;
+		padding: 4px 0px;
+		background-color: rgba(19,19,19,0.8);
+		box-shadow: 0px 0px 12px black;
+		border-radius: 12px;
+		border: 2px rgba(109,109,109,0.5) solid;
+		transition: 0.3s;
 
-			&:hover {
-				box-shadow: 0px 0px 12px 3px black;
-				border: 2px rgba(109,109,109,0.8) solid;
-			} // Card:hover
-		
-		} // Card
+		&:hover {
+			box-shadow: 0px 0px 12px 3px black;
+			border: 2px rgba(109,109,109,0.8) solid;
+		} // Card:hover
+	
+	} // Card
 
-	} // FeaturesC (4th)
+	@include respond-to('small') {
+		grid-template-columns: repeat(2, 1fr);
+
+	} // media query - small
+
+	@include respond-to('xsmall') {
+		grid-template-columns: repeat(1, 1fr);
+
+	} // media query - xsmall
+
+
+} // FeaturesC (4th)

@@ -5,4 +5,9 @@
 	width: 100%;
 	justify-self: center;
 
+	@include respond-to('medium') {
+		grid-column: 2 / span 11;
+
+	}
+
 } // LandingC (Whole page)

@@ -9,7 +9,7 @@ return (
 		<div className="RegisterC" id="register">
 
 			<div className="Title">
-				<h2>Get notified when product launches</h2>
+				<h2>Subscribe for updates</h2>
 			</div>
 
 			<div className="Box">

@@ -22,4 +22,15 @@
 
 	} // img
 
+	@include respond-to('medium') {
+		max-width: 1226px;
+	} // media query - medium
+
+	@include respond-to('xsmall') {
+
+		img {
+			max-width: 100%;
+		} // img
+	} // media query - xsmall
+
 } // HelloC (1st)
