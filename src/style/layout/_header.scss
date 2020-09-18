@@ -79,9 +79,16 @@
 		grid-column: 1 / span 2;
 		cursor: default;
 
-		h1 {
-			font-size: 1.4rem;
-		}
+		a {
+			color: white;
+			text-decoration: none;
+
+			h1 {
+				font-size: 1.4rem;
+			
+			} // h1
+
+		} // a
 
 	} // Brand
 

@@ -4,7 +4,7 @@ import Categories from '../../resources/IntroCategories.png'
 
 const Hello = () => {
 	return (
-		<div className="HelloC">
+		<div className="HelloC" id="Intro">
 		
 			<h2>Micro-Nutrient analytics</h2>
 			<img src={Categories} alt="Micro-Nutrient Categories" />

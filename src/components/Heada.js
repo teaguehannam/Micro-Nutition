@@ -19,13 +19,15 @@ const Grid = () => {
 			</div>
 
 			<div className="Legal">
-				<a href="#">Privacy</a>
+				<a href="#">Light Mode</a>
 				<a href="#">Legal</a>
 			</div>
 
 
 			<div className="Brand">
-				<h1>Micro Nutrition</h1>
+				<a href="https://micronutrients.netlify.app/">
+					<h1>Micro Nutrition</h1>
+				</a>			
 			</div>
 
 			<div className="Account">
@@ -33,11 +35,11 @@ const Grid = () => {
 			</div>
 
 			<nav>
-				<a href="">Introduction</a>
-				<a href="">Research</a>
-				<a href="">Features</a>
-				<a href="">Register</a>
-				<a href="">Contact</a>
+				<a href="#Intro">Introduction</a>
+				<a href="#Research">Research</a>
+				<a href="#Features">Features</a>
+				<a href="#Register">Register</a>
+				<a href="#Contact">Contact</a>
 			</nav>
 
 		</div>

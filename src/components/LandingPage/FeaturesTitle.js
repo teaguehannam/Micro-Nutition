@@ -2,7 +2,7 @@ import React from 'react';
 
 const FeaturesTitle = () => {
 	return (
-		<div className="FeaturesTitleC">
+		<div className="FeaturesTitleC" id="Features">
 		
 			<h2>Features</h2>
 
