@@ -1,9 +1,9 @@
 import React from 'react';
 
 // Components
-import Header from './Heada.js';
+import Header from './Header.js';
 import LandingPage from '../pages/LandingPage.js';
-//import Footer from './Foota.js';
+//import Footer from './Footer.js';
 
 const Grid = () => {
 	

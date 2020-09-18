@@ -2,7 +2,11 @@ import React from 'react';
 
 const CurrentFeatures = () => {
 	return (
-		<div className="FeaturesC" id="features">
+		<div className="FeaturesC" id="Features">
+
+			<div className="Title">
+				<h2>Features</h2>
+			</div>
 	
 			<div className="Card">
 				<p>Track your food,</p>

@@ -1,28 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.941407b0.chunk.css",
-    "main.js": "/static/js/main.1a3f29b4.chunk.js",
-    "main.js.map": "/static/js/main.1a3f29b4.chunk.js.map",
+    "main.css": "/static/css/main.3fd27e1b.chunk.css",
+    "main.js": "/static/js/main.b02dabff.chunk.js",
+    "main.js.map": "/static/js/main.b02dabff.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.26a92672.js",
     "runtime-main.js.map": "/static/js/runtime-main.26a92672.js.map",
     "static/js/2.c65565cd.chunk.js": "/static/js/2.c65565cd.chunk.js",
     "static/js/2.c65565cd.chunk.js.map": "/static/js/2.c65565cd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.86d951e183b9a651eebe252fc18db356.js": "/precache-manifest.86d951e183b9a651eebe252fc18db356.js",
+    "precache-manifest.b167ce88cb3cb7ba32dd5a421cabcaa6.js": "/precache-manifest.b167ce88cb3cb7ba32dd5a421cabcaa6.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.941407b0.chunk.css.map": "/static/css/main.941407b0.chunk.css.map",
+    "static/css/main.3fd27e1b.chunk.css.map": "/static/css/main.3fd27e1b.chunk.css.map",
     "static/js/2.c65565cd.chunk.js.LICENSE.txt": "/static/js/2.c65565cd.chunk.js.LICENSE.txt",
     "static/media/EmailAnimation.gif": "/static/media/EmailAnimation.66e26284.gif",
     "static/media/HealthyFood.png": "/static/media/HealthyFood.c9d05075.png",
     "static/media/IntroCategories.png": "/static/media/IntroCategories.120d9285.png",
-    "static/media/main.scss": "/static/media/bg_spec.a07dd1cc.jpg",
     "static/media/dnaStates.jpg": "/static/media/dnaStates.3ced0281.jpg",
     "static/media/rabbit.gif": "/static/media/rabbit.b9b3b8e5.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.26a92672.js",
     "static/js/2.c65565cd.chunk.js",
-    "static/css/main.941407b0.chunk.css",
-    "static/js/main.1a3f29b4.chunk.js"
+    "static/css/main.3fd27e1b.chunk.css",
+    "static/js/main.b02dabff.chunk.js"
   ]
 }

@@ -6,8 +6,6 @@ $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
 $text-color: rgb(19, 19, 19) !default;
 $brand-color: rgb(229, 0, 80) !default;
 
-/// Container's maximum width
-/// @type Length
 $max-width: 1180px !default;
 
 $breakpoints: (
@@ -18,17 +16,4 @@ $breakpoints: (
 	'xlarge': (max-width: 2500px)
 ) !default;
 
-/// Relative or absolute URL where all assets are served from
-/// @type String
-/// @example scss - When using a CDN
-///   $base-url: 'http://cdn.example.com/assets/';
 $base-url: '/assets/' !default;
-
-///
-/// Add up vertically to 100vh
-
-
-///
-/// position: aboslute 
-$footerVH: 48px;
-
