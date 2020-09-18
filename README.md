@@ -2,8 +2,7 @@
 Landing page style project
 
 ### To do:
-- Tablet/mobile optimization
+- Hide accessibility options on header on scrolldown
+	- Darkmode/Lightmode toggle in accessibility options
 - Fill out contact/legal section
-- Connect nav to sections
-- Implement multiple languages
-- Hide top half of header on scrolldown
+- Implement language selector
