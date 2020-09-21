@@ -6,7 +6,7 @@ import EmailAnimation from '../../resources/EmailAnimation.gif';
 const Register = () => {
 
 return (
-		<div className="RegisterC" id="Register">
+		<div className="RegisterC" id="Email">
 
 			<div className="Title">
 				<h2>Subscribe for updates</h2>

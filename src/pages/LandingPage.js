@@ -8,10 +8,10 @@ import SkillLevel from '../components/LandingPage/SkillLevel.js';
 import Contact from '../components/LandingPage/Contact.js';
 import Register from '../components/LandingPage/Register.js';
 
-
 const LandingPage = () => {
 	return (
 		<div className="LandingC">
+			
 			<Hello />
 			<CurrentFeatures />
 			<Research />

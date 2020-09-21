@@ -20,10 +20,10 @@ const Header = () => {
 
 				<nav>
 					<a href="#Intro">Introduction</a>
-					<a href="#Features">Features</a>
+					<a href="#Overview">Overview</a>
 					<a href="#Research">Research</a>
-					<a href="#Register">Register</a>
-					<a href="#Contact">Contact</a>
+					<a href="#Level">Features</a>
+					<a href="#Email">Updates</a>
 				</nav>
 
 			</div>

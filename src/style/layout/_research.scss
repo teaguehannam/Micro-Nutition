@@ -2,8 +2,8 @@
 	margin: 128px auto 0px auto;
 	padding: 32px 0px;
 	text-align: center;
-	background-color: $slight-grey;
 	color: $white;
+	background-color: rgba(136,136,136,1);
 
 	.Title {
 			margin: 0px 0px 32px 0px;
@@ -18,25 +18,35 @@
 
 	.Links {
 		display: flex;
-		justify-content: center;
+		justify-content: space-around;
+		max-width: 750px;
+		margin: 0px auto;
 
-		a {
-			margin: 0px 18px;
-			text-decoration: none;
-			color: $link-color;
-			border: 1px $dark-opacity2 solid;
-			width: 200px;
-			padding: 8px 0px;
-			transition: 0.1s;
+		.Box {
 
-			&:hover {
-				color: $white;
-				background-color: $text-color;
-				border: 1px $white solid;
+			a {
+				background-color: rgba(252,252,252,0.93);
+				margin: 0px 18px;
+				text-decoration: none;
+				padding: 26px 20px 12px 20px;
+				box-shadow: 0px 0px 2px black;
+				border-radius: 3px;
+				transition: 0.2s;
 
-			} // a:hover
+				&:hover {
+					background-color: white;
+					box-shadow: 0px 0px 6px black;
 
-		} // a
+				} // a:hover
+
+				img {
+					width: 92px;
+
+				} // img
+
+			} // a
+
+		} // Box
 
 	} // Links
 

@@ -9,7 +9,7 @@ import Optimize from '../../resources/icons/optimize.svg';
 
 const CurrentFeatures = () => {
 	return (
-		<div className="FeaturesC" id="Features">
+		<div className="FeaturesC" id="Overview">
 	
 			<div className="Card">
 				<img src={Notes} alt="Notes" />
