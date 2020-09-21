@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9585db57.chunk.css",
-    "main.js": "/static/js/main.590f63b9.chunk.js",
-    "main.js.map": "/static/js/main.590f63b9.chunk.js.map",
+    "main.css": "/static/css/main.31ab24ba.chunk.css",
+    "main.js": "/static/js/main.33235247.chunk.js",
+    "main.js.map": "/static/js/main.33235247.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.26a92672.js",
     "runtime-main.js.map": "/static/js/runtime-main.26a92672.js.map",
     "static/js/2.6b0f605a.chunk.js": "/static/js/2.6b0f605a.chunk.js",
     "static/js/2.6b0f605a.chunk.js.map": "/static/js/2.6b0f605a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a6023cafb76d871ed6979d9ef3ac32a5.js": "/precache-manifest.a6023cafb76d871ed6979d9ef3ac32a5.js",
+    "precache-manifest.271f73251a7ba189086cb33a4eb33f0b.js": "/precache-manifest.271f73251a7ba189086cb33a4eb33f0b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.9585db57.chunk.css.map": "/static/css/main.9585db57.chunk.css.map",
+    "static/css/main.31ab24ba.chunk.css.map": "/static/css/main.31ab24ba.chunk.css.map",
     "static/js/2.6b0f605a.chunk.js.LICENSE.txt": "/static/js/2.6b0f605a.chunk.js.LICENSE.txt",
     "static/media/EmailAnimation.gif": "/static/media/EmailAnimation.66e26284.gif",
     "static/media/HealthyFood.png": "/static/media/HealthyFood.f0068214.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.26a92672.js",
     "static/js/2.6b0f605a.chunk.js",
-    "static/css/main.9585db57.chunk.css",
-    "static/js/main.590f63b9.chunk.js"
+    "static/css/main.31ab24ba.chunk.css",
+    "static/js/main.33235247.chunk.js"
   ]
 }

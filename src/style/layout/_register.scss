@@ -22,4 +22,35 @@
 	
 	} // Box - input & submit button
 
+	@include respond-to('xsmall') {
+
+		.Title {
+			width: 90vw;
+			
+		} // Title
+
+		.Box {
+			width: 100%;
+			img {
+				max-width: 200px;
+
+			} // img
+
+		} // Box
+
+		.Box:nth-of-type(3) {
+			width: 200px;
+			flex-direction: column;
+			padding: 2px 0px;
+
+			button {
+				margin: 12px auto 0px auto;
+				width: 50%;
+			} // button
+
+		} // input & submit button
+
+	} // media query - xsmall
+
+
 } // RegisterC

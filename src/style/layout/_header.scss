@@ -4,20 +4,33 @@
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
-	
+	z-index: 1;
 
 	.Content {
 		max-width: $max-width; 
 		margin: 0px auto;
 		display: grid;
-		grid-template-columns: 182px 1fr;
+		grid-template-columns: 188px 1fr;
 		padding: 15px 0px;
-
 
 		.Brand {
 			text-align: center;
 			line-height: 3rem;
 			font-size: 1.69rem;
+
+			a {
+				color: $slight-grey;
+				text-decoration: none;
+				padding: 3px 5px;
+				border: 1px $dark-opacity solid;
+
+				&:hover {
+					color: $dark;
+					border: 1px $dark-opacity2 solid;
+
+				} // a:hover
+
+			} // a
 
 		} // Brand
 
@@ -28,14 +41,27 @@
 			border: 1px;
 
 			a {
-				margin: 0px 5px;
+				margin: 0px 12px;
 				text-align: center;
 				min-width: 15%;
-			}
+				color: $slight-grey;
+				text-decoration: none;
+				border: 1px $dark-opacity solid;
 
-		}
+				&:hover {
+					color: $dark;
+					border: 1px $dark-opacity2 solid;
+
+				} // a:hover
+
+			} // a
+
+			@include respond-to('xsmall') {
+				display: none;
+			} // media query - small
+
+		} // nav
 
 	} // Content 
-
 	
 } // HeaderC

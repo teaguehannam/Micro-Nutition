@@ -119,12 +119,14 @@
 			.IntermediateImg{
 				grid-column: 1 / span 1;
 				grid-row: 3 / span 1;
+				margin: 0px 0px -42px 0px;
 
 			} // IntermediateImg
 
 			.Advanced {
 				grid-column: 1 / span 1;
 				grid-row: 6 / span 1;
+				padding-bottom: 16px;
 
 			} // Advanced
 

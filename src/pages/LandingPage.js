@@ -12,7 +12,6 @@ import Register from '../components/LandingPage/Register.js';
 const LandingPage = () => {
 	return (
 		<div className="LandingC">
-		
 			<Hello />
 			<CurrentFeatures />
 			<Research />

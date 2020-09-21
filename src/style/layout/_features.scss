@@ -33,7 +33,7 @@
 
 	} // media query - medium
 
-	@include respond-to('small') {
+	@include respond-to('xsmall') {
 		grid-template-columns: repeat(1, 1fr);
 
 		.Card {
@@ -45,5 +45,6 @@
 
 		} // Card
 
-	} // media query - small
+	} // media query - xsmall
+	
 } // FeaturesC
