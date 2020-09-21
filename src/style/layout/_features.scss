@@ -1,3 +1,49 @@
-.FeaturesTitleC {
-	
+.FeaturesC {
+	max-width: $max-width; 
+	margin: 128px auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: space-between;
+	grid-gap: 10px;
+
+	.Card {
+		padding: 15px 0px;
+		line-height: 1rem;
+		text-align: center;
+		transition: 0.5s;
+
+		&:hover {
+			box-shadow: 0px 0px 1px 3px rgba(32,24,36,0.05);
+
+		} // Card:hover
+
+
+		img {
+			max-height: 80px;
+		}
+
+
+	} // Card
+
+	@include respond-to('medium') {
+		width: 90%;
+		grid-template-columns: repeat(2, 1fr);
+
+
+
+	} // media query - medium
+
+	@include respond-to('small') {
+		grid-template-columns: repeat(1, 1fr);
+
+		.Card {
+
+			&:hover {
+				box-shadow: unset;
+
+			} // Card:hover
+
+		} // Card
+
+	} // media query - small
 } // FeaturesC

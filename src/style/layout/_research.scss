@@ -1,4 +1,44 @@
 .ResearchC {
+	margin: 128px auto 0px auto;
+	padding: 32px 0px;
+	text-align: center;
+	background-color: $slight-grey;
+	color: $white;
+
+	.Title {
+			margin: 0px 0px 32px 0px;
+
+		h3 {
+			margin: 0px;
+			font-size: 2rem;
+
+		} // h3
+
+	} // Title
+
+	.Links {
+		display: flex;
+		justify-content: center;
+
+		a {
+			margin: 0px 18px;
+			text-decoration: none;
+			color: $link-color;
+			border: 1px $dark-opacity2 solid;
+			width: 200px;
+			padding: 8px 0px;
+			transition: 0.1s;
+
+			&:hover {
+				color: $white;
+				background-color: $text-color;
+				border: 1px $white solid;
+
+
+			} // a:hover
+
+		} // a
+	}
 
 
 }  // ResearchC (2nd)

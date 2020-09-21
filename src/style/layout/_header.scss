@@ -1,4 +1,41 @@
 .HeaderC {
+	// Sticky header
+	background-color: $white;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 	
+
+	.Content {
+		max-width: $max-width; 
+		margin: 0px auto;
+		display: grid;
+		grid-template-columns: 182px 1fr;
+		padding: 15px 0px;
+
+
+		.Brand {
+			text-align: center;
+			line-height: 3rem;
+			font-size: 1.69rem;
+
+		} // Brand
+
+		nav {
+			display: flex;
+			justify-content: flex-end;
+			line-height: 3rem;
+			border: 1px;
+
+			a {
+				margin: 0px 5px;
+				text-align: center;
+				min-width: 15%;
+			}
+
+		}
+
+	} // Content 
+
 	
-} // Molecules
+} // HeaderC

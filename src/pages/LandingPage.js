@@ -14,8 +14,8 @@ const LandingPage = () => {
 		<div className="LandingC">
 		
 			<Hello />
-			<Research />
 			<CurrentFeatures />
+			<Research />
 			<SkillLevel />
 			<Register />
 			<Contact />

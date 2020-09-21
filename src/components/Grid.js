@@ -1,6 +1,7 @@
 import React from 'react';
 
 // Components
+import Accessibility from './Accessibility.js';
 import Header from './Header.js';
 import LandingPage from '../pages/LandingPage.js';
 //import Footer from './Footer.js';
@@ -8,8 +9,9 @@ import LandingPage from '../pages/LandingPage.js';
 const Grid = () => {
 	
 	return (
-		<div className="GridContainer Border">
+		<div className="GridC">
 
+			<Accessibility />
 			<Header />
 			<LandingPage />
 		{/*

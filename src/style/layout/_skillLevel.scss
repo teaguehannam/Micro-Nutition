@@ -1,4 +1,156 @@
 .SkillLevelC {
+	max-width: $max-width;
+	margin: 128px auto 0px auto;
+	line-height: 1.4rem;
 
+	.Scale {
+		display: grid;
+		grid-gap: 15px 32px;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 1fr 1fr 1fr 1fr 
+							1fr 1fr	1fr;
+
+		#Overview {
+			text-align: center;
+			border: 1px grey solid;
+			color: $text-color;
+
+		} // div
+
+		.Easy {
+			grid-column: 1 / span 1;
+			grid-row: 1 / span 3;
+
+		} // Easy
+
+		.EasyImg {
+			grid-column: 1 / span 1;
+			grid-row: 5 / span 3;
+
+			img {
+				padding: 12px;
+				max-width: 100%;
+
+			} // img
+
+		} // EasyImg
+
+		.Intermediate {
+			grid-column: 2 / span 1;
+			grid-row: 3 / span 3;
+
+		} // Intermediate
+
+		.IntermediateImg{
+			grid-column: 2 / span 1;
+			grid-row: 2 / span 2;
+			display: flex;
+			justify-content: center;
+
+			img {
+				padding: 0px 0px 25px 0px;
+				height: 100px;
+
+			} // img
+
+		} // IntermediateImg
+
+		.Advanced {
+			grid-column: 3 / span 1;
+			grid-row: 5 / span 3;
+
+			.Categories {
+				display: flex;
+				flex-wrap: wrap;
+
+				p {
+					width: 50%;
+					margin: 4px 0px;
+					padding: 0px 4px;
+				}
+
+			} // Categories
+
+		} // Advanced
+
+		.AdvancedImg {
+			grid-column: 3 / span 1;
+			grid-row: 2 / span 3;
+			align-self: center;
+			margin: 0px auto;
+
+			img {
+				max-height: 200px;
+				filter: invert(1);
+
+			} // img
+
+		} // AdvancedImg
+
+	} // Scale
+
+	@include respond-to('medium') {
+
+		.Scale {
+			grid-template-columns: repeat(1, 1fr);
+			grid-template-rows: repeat(1, 1fr);
+			margin: 0px auto;
+			max-width: 600px;
+
+			.Easy {
+				grid-column: 1 / span 1;
+				grid-row: 2 / span 1;
+
+			} // Easy
+
+			.EasyImg {
+				grid-column: 1 / span 1;
+				grid-row: 1 / span 1;
+				margin: 0px auto;
+
+			} // EasyImg
+
+			.Intermediate {
+				grid-column: 1 / span 1;
+				grid-row: 4 / span 1;
+
+			} // Intermediate
+
+			.IntermediateImg{
+				grid-column: 1 / span 1;
+				grid-row: 3 / span 1;
+
+			} // IntermediateImg
+
+			.Advanced {
+				grid-column: 1 / span 1;
+				grid-row: 6 / span 1;
+
+			} // Advanced
+
+			.AdvancedImg {
+				grid-column: 1 / span 1;
+				grid-row: 5 / span 1;
+
+				img {
+					max-width: 400px;
+
+				} // img
+
+			} // AdvancedImg
+
+		} // Scale
+
+	} // media query - medium
+
+	@include respond-to('xsmall') {
+
+		.Scale {
+			
+			max-width: 98%;
+
+		} // Scale
+
+	} // media query - small
 
 } // SkillLevelC

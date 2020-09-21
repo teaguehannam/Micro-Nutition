@@ -1,4 +1,25 @@
 .RegisterC {
+	margin: 128px auto 0px auto;
+	width: 100%;
+	text-align: center;
 
+	.Title {
+		width: 500px;
+		margin: 0px auto;
+
+	} // Title
+
+	.Box {
+		margin: 0px auto;
+		width: 500px;
+
+	} // Box
+
+	.Box:nth-of-type(3) {
+		width: 400px;
+		display: flex;
+		justify-content: space-evenly;
+	
+	} // Box - input & submit button
 
 } // RegisterC

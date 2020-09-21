@@ -1,27 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.3fd27e1b.chunk.css",
-    "main.js": "/static/js/main.b02dabff.chunk.js",
-    "main.js.map": "/static/js/main.b02dabff.chunk.js.map",
+    "main.css": "/static/css/main.9585db57.chunk.css",
+    "main.js": "/static/js/main.590f63b9.chunk.js",
+    "main.js.map": "/static/js/main.590f63b9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.26a92672.js",
     "runtime-main.js.map": "/static/js/runtime-main.26a92672.js.map",
-    "static/js/2.c65565cd.chunk.js": "/static/js/2.c65565cd.chunk.js",
-    "static/js/2.c65565cd.chunk.js.map": "/static/js/2.c65565cd.chunk.js.map",
+    "static/js/2.6b0f605a.chunk.js": "/static/js/2.6b0f605a.chunk.js",
+    "static/js/2.6b0f605a.chunk.js.map": "/static/js/2.6b0f605a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b167ce88cb3cb7ba32dd5a421cabcaa6.js": "/precache-manifest.b167ce88cb3cb7ba32dd5a421cabcaa6.js",
+    "precache-manifest.a6023cafb76d871ed6979d9ef3ac32a5.js": "/precache-manifest.a6023cafb76d871ed6979d9ef3ac32a5.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.3fd27e1b.chunk.css.map": "/static/css/main.3fd27e1b.chunk.css.map",
-    "static/js/2.c65565cd.chunk.js.LICENSE.txt": "/static/js/2.c65565cd.chunk.js.LICENSE.txt",
+    "static/css/main.9585db57.chunk.css.map": "/static/css/main.9585db57.chunk.css.map",
+    "static/js/2.6b0f605a.chunk.js.LICENSE.txt": "/static/js/2.6b0f605a.chunk.js.LICENSE.txt",
     "static/media/EmailAnimation.gif": "/static/media/EmailAnimation.66e26284.gif",
-    "static/media/HealthyFood.png": "/static/media/HealthyFood.c9d05075.png",
-    "static/media/IntroCategories.png": "/static/media/IntroCategories.120d9285.png",
-    "static/media/dnaStates.jpg": "/static/media/dnaStates.3ced0281.jpg",
-    "static/media/rabbit.gif": "/static/media/rabbit.b9b3b8e5.gif"
+    "static/media/HealthyFood.png": "/static/media/HealthyFood.f0068214.png",
+    "static/media/IntroCategories.png": "/static/media/IntroCategories.a6bb1c37.png",
+    "static/media/dnaStates.jpg": "/static/media/dnaStates.cd9bf57c.jpg",
+    "static/media/doctor.svg": "/static/media/doctor.c69e8530.svg",
+    "static/media/foods.svg": "/static/media/foods.d18f952d.svg",
+    "static/media/graph.svg": "/static/media/graph.a7b23458.svg",
+    "static/media/knowledge.svg": "/static/media/knowledge.2de23ccc.svg",
+    "static/media/notes.svg": "/static/media/notes.d403746e.svg",
+    "static/media/optimize.svg": "/static/media/optimize.81d8a86d.svg",
+    "static/media/rabbit.gif": "/static/media/rabbit.0c5b964a.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.26a92672.js",
-    "static/js/2.c65565cd.chunk.js",
-    "static/css/main.3fd27e1b.chunk.css",
-    "static/js/main.b02dabff.chunk.js"
+    "static/js/2.6b0f605a.chunk.js",
+    "static/css/main.9585db57.chunk.css",
+    "static/js/main.590f63b9.chunk.js"
   ]
 }

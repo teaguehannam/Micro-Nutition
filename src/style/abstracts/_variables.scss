@@ -3,10 +3,20 @@
 $text-font-stack: 'Merriweather', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
 $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
 
+
+// Text
 $text-color: rgb(19, 19, 19) !default;
 $brand-color: rgb(229, 0, 80) !default;
+$white: rgb(255,255,255);
+$slight-grey: rgb(93,92,96);
+$link-color: rgb(246,242,252);
 
-$max-width: 1180px !default;
+// Borders 
+$dark-opacity: rgba(19,19,19,0);
+$dark-opacity2: rgba(19,19,19,0.2);
+$dark: rgba(19,19,19,1);
+
+$max-width: 1140px !default;
 
 $breakpoints: (
 	'xsmall': (max-width: 700px),
