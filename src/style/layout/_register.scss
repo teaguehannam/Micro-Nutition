@@ -1,74 +1,56 @@
 .RegisterC {
-	color: black;
-	margin: 0px auto 192px auto;
-	background-color: rgba(252,252,252,1);
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	margin: 128px auto 0px auto;
+	width: 100%;
+	text-align: center;
 
 	.Title {
-		width: 100%;
+		width: 500px;
+		margin: 0px auto;
 
-		h2 {
-			min-width: 500px;
-			margin: 0px auto;
-			padding: 0;
-			line-height: 5rem;
-			font-size: 2.5rem;
-	
-		} // h2
-	
 	} // Title
 
 	.Box {
-		min-height: 400px;
-		margin-top: 16px;
-		padding: 0px 60px;
-
-		input {
-			margin-top: 128px;
-		} // input
-
-		button {
-			margin: 5px 0px;
-			max-width: 200px;
-		
-		} // button
+		margin: 0px auto;
+		width: 500px;
 
 	} // Box
 
-	@include respond-to('small') {
+	.Box:nth-of-type(3) {
+		width: 400px;
 		display: flex;
-		flex-direction: column;
+		justify-content: space-evenly;
+	
+	} // Box - input & submit button
+
+	@include respond-to('xsmall') {
 
 		.Title {
-
-			h2 {
-				min-width: 0px;
-				line-height: 3rem;
-				font-size: 2rem;
-
-			}
-
+			width: 90vw;
+			
 		} // Title
 
 		.Box {
-			min-height: 200px;
 			width: 100%;
-
-
-			input {
-				margin-top: 32px;
-			} // input
-
-			button {
-				margin: 5px 0px;
+			img {
 				max-width: 200px;
-			
-			} // button
+
+			} // img
 
 		} // Box
 
-	} // media query - small
+		.Box:nth-of-type(3) {
+			width: 200px;
+			flex-direction: column;
+			padding: 2px 0px;
+
+			button {
+				margin: 12px auto 0px auto;
+				width: 50%;
+			} // button
+
+		} // input & submit button
+
+	} // media query - xsmall
+
 
 } // RegisterC

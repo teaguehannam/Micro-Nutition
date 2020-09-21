@@ -20,6 +20,7 @@
 // 4. Layout-related sections
 @import
   'layout/grid',
+  'layout/accessibility',
   'layout/header',
   'layout/footer',
   'layout/landing',
@@ -36,8 +37,7 @@
 
 // 6. Page-specific styles
 @import
-  'pages/home',
-  'pages/resume';
+  'pages/home';
 
 // 7. Themes
 @import

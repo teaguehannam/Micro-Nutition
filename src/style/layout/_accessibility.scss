@@ -1,0 +1,63 @@
+.AccessibilityC {
+	max-width: $max-width; 
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-between;
+	color: $slight-grey;
+	width: 100%;
+	transition: 0.4s;
+
+	&:hover {
+		color: $text-color;
+		
+	} // AccessibilityC:hover
+
+
+	.Language {
+		grid-row: 1 / span 1 ;
+		grid-column: 1 / span 1;
+		position: relative;
+		display: inline-block;
+		cursor: pointer;
+		margin-left: 24px;
+
+		span {
+			font-size: 1rem;
+			line-height: 2rem;
+
+		} // span [EN]
+
+		.Dropdown {
+			display: none;
+			position: absolute;
+			background-color: white;
+			min-width: 100px;
+			color: black;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			padding: 12px 16px;
+			z-index: 1;
+
+			p {
+				height: 100%;
+				width: 100%;
+				margin: 0px;
+				border: 3px rgba(128,128,128,0) solid;
+				transition: 0.2s;
+				
+				&:hover {
+					border: 3px grey solid;
+				} // p:hover
+
+			} // p
+
+		} // Dropdown Menu
+
+		&:hover {
+			.Dropdown {
+				display: block;
+			} // Dropdown
+		} // Language:hover
+
+	} // Language
+
+} // AccessibilityC

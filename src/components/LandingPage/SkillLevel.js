@@ -7,10 +7,6 @@ import DnaStates from '../../resources/dnaStates.jpg';
 const SkillLevel = () => {
 	return (
 		<div className="SkillLevelC">
-		
-			<div className="SkillTitle">
-				<h2>Beginning to advanced users</h2>
-			</div>
 
 			<div className="Scale">
 				<div id="Overview" className="Easy">
@@ -26,9 +22,9 @@ const SkillLevel = () => {
 
 				<div id="Overview" className="Intermediate">
 					<h3>Intermediate</h3>
-					<p>Simulate nutrient intake from meal plans.</p>
-					<p>Keep track of liked and disliked foods.</p>
-					<p>Customize goals and periodic reports.</p>
+					<p>Simulate diets/meal plans.</p>
+					<p>Customize goals and reports.</p>
+					<p>Keep track of foods preferences.</p>
 				</div>
 
 				<div className="IntermediateImg">

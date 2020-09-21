@@ -4,8 +4,11 @@ const Research = () => {
 	return (
 		
 		<div className="ResearchC" id="Research">
-			<h3>Research</h3>
-			<p>Based on latest info and studies from</p>
+
+			<div className="Title">
+				<h3>Research</h3>
+				<p>Latest information and studies from</p>
+			</div>
 			
 			<div className="Links">
 				<a href="https://www.ncbi.nlm.nih.gov/">NCBI</a>

@@ -1,151 +1,67 @@
 .HeaderC {
-	grid-row: 2 / span 1 ;
-	grid-column: 2 / span 10;
-	width: 100%;
-	max-width: 1200px;
-	background-color: rgba(36,36,39,0.8);
-	justify-self: center;
+	// Sticky header
+	background-color: $white;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 1;
 
-	// Header's grid
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 12px, 200px;
-	align-items: center;
+	.Content {
+		max-width: $max-width; 
+		margin: 0px auto;
+		display: grid;
+		grid-template-columns: 188px 1fr;
+		padding: 15px 0px;
 
-	.Language {
-		grid-row: 1 / span 1 ;
-		grid-column: 1 / span 1;
-		position: relative;
-		display: inline-block;
-		cursor: pointer;
+		.Brand {
+			text-align: center;
+			line-height: 3rem;
+			font-size: 1.69rem;
 
-		.Dropdown {
-			display: none;
-			position: absolute;
-			background-color: white;
-			min-width: 100px;
-			color: black;
-			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-			padding: 12px 16px;
-			z-index: 1;
-
-			p {
-				height: 100%;
-				margin: 0px;
-				border: 3px rgba(128,128,128,0) solid;
-				transition: 0.2s;
-				
-				&:hover {
-					border: 3px grey solid;
-				} // p:hover
-
-			} // p
-
-		} // Dropdown Menu
-
-		&:hover {
-			.Dropdown {
-				display: block;
-			} // Dropdown
-		} // Language:hover
-
-	} // Language
-
-	.Legal {
-		grid-row: 1 / span 1 ;
-		grid-column: 9 / span 2;
-		display: flex;
-		justify-content: space-evenly;
-
-		a {
-			font-size: 1rem;
-			padding: 0px 12px;
-			color: rgba(252,252,252,0.8);
-			border: 1px rgba(92,92,92,0) solid;
-
-			&:hover {
+			a {
+				color: $slight-grey;
 				text-decoration: none;
-				border: 1px rgba(92,92,92,1) solid;
-				color: rgb(246,235,252);
+				padding: 3px 5px;
+				border: 1px $dark-opacity solid;
 
-			} // a:hover
+				&:hover {
+					color: $dark;
+					border: 1px $dark-opacity2 solid;
 
-		} // a
+				} // a:hover
 
-	} // Legal
+			} // a
 
-	.Brand {
-		grid-row: 2 / span 1 ;
-		grid-column: 1 / span 2;
-		cursor: default;
+		} // Brand
 
-		a {
-			color: white;
-			text-decoration: none;
+		nav {
+			display: flex;
+			justify-content: flex-end;
+			line-height: 3rem;
+			border: 1px;
 
-			h1 {
-				font-size: 1.4rem;
-			
-			} // h1
+			a {
+				margin: 0px 12px;
+				text-align: center;
+				min-width: 15%;
+				color: $slight-grey;
+				text-decoration: none;
+				border: 1px $dark-opacity solid;
 
-		} // a
+				&:hover {
+					color: $dark;
+					border: 1px $dark-opacity2 solid;
 
-	} // Brand
+				} // a:hover
 
-	.Account {
-		grid-row: 1 / span 2;
-		grid-column: 11 / span 2;
-		display: flex;
-		flex-direction: column;
-		height: 100%;
-		justify-content: space-around;
+			} // a
 
-		a {
-			color: rgba(192,252,192,0.75);
-			padding: 20px 0px;
-			text-decoration: none;
-			border: 2px rgba(19,19,19,0) solid;
+			@include respond-to('xsmall') {
+				display: none;
+			} // media query - small
 
-			&:hover {
-				color: rgba(128,252,192,1);
-				background-color: rgba(19,19,19,0.9);
-				border: 2px rgba(252,252,252,1) solid;
-			} // a:hover
+		} // nav
 
-		} // a
-
-	} // Account
-
-	nav {
-		grid-row: 2 / span 1;
-		grid-column: 5 / span 6;
-		display: flex;
-		justify-content: space-around;
-		height: 100%;
-		align-items: center;
-
-		a {
-			border: 1px rgba(252,252,252,0) solid;
-			text-decoration: none;
-			color: rgb(252,252,252);
-			width: 30%;
-			padding: 5px 0px;
-
-			&:hover {
-				border: 1px rgba(252,252,252,1) solid;
-				color: rgb(255,255,255);
-				background-color: rgba(19,19,19,0.9);
-			} // a:hover
-		} // a
-
-
-
-	} // nav
-
-	@include respond-to('medium') {
-		grid-column: 1 / span 12;
-		width: 100%;
-		max-width: 1226px;
-	}
- 
-} // Molecules
+	} // Content 
+	
+} // HeaderC
