@@ -6,7 +6,7 @@ import DnaStates from '../../resources/dnaStates.jpg';
 
 const SkillLevel = () => {
 	return (
-		<div className="SkillLevelC">
+		<div className="SkillLevelC" id="Level">
 
 			<div className="Scale">
 				<div id="Overview" className="Easy">

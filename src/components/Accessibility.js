@@ -18,7 +18,7 @@ const Accessibility = () => {
 				</div>
 			</div>
 
-			<div className="Legal">
+			<div className="Theme">
 				<a href="#">Dark Mode</a>
 			</div>
 
