@@ -1,0 +1,105 @@
+.DarkMode {
+	color: white;
+	background-color: black;
+	transition: 0s;
+
+	.AccessibilityC {
+		background-color: black;
+		color: rgb(192,192,192);
+
+		&:hover {
+			color: white;
+
+		} // AccessibilityC:hover
+
+	} // AccessibilityC
+
+
+	.HeaderC {
+		background-color: rgba(92,92,92,1);
+		
+		.Brand{
+
+			a {
+				color: white;
+
+				&:hover {
+					color: white;
+					border: 1px white solid;
+
+				} // a:hover
+			} // a
+
+		} // Brand
+
+		nav {
+
+			a {
+				color: white;
+				
+				&:hover {
+					color: white;
+					border: 1px white solid;
+
+				} // a:hover
+				
+			} // a
+
+		} // nav
+
+	} // HeaderC
+
+
+
+	.HelloC {
+
+	} // HelloC
+
+
+	.FeaturesC {
+
+		.Card {
+			z-index: -1;
+
+			img {
+				filter: invert(1);
+			}
+
+		} // Card
+
+	} // FeaturesC
+
+
+	.SkillLevelC {
+
+		.Scale{
+
+			#Overview {
+				color: white;
+
+			} // Overview
+
+			.AdvancedImg {
+				img {
+					filter: invert(0);
+
+				} // img - dnaStates
+
+			} // AdvancedImg
+
+		} // Scale
+
+	} // SkillLevelC
+
+
+	.RegisterC {
+
+		img {
+			filter: invert(1);
+
+		} // img
+
+	} // RegisterC
+
+
+} // dark-mode

@@ -2,10 +2,9 @@ import React from 'react';
 
 import EmailAnimation from '../../resources/EmailAnimation.gif';
 
-
 const Register = () => {
 
-return (
+	return (
 		<div className="RegisterC" id="Email">
 
 			<div className="Title">
@@ -20,7 +19,7 @@ return (
 				<input 	type="text" 
 						id="email" 
 						placeholder="Enter email"
-						autocomplete="off"
+						autoComplete="off"
 				/>
 				<button type="submit">Submit</button>
 			</div>

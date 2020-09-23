@@ -1,8 +1,14 @@
 import React from 'react';
-
+import useDarkMode from '../hooks/useDarkMode';
 
 const Accessibility = () => {
 	
+	const [darkMode, setDarkMode] = useDarkMode(false);
+	const toggleDarkMode = e => {
+		e.preventDefault();
+		setDarkMode(!darkMode);
+	};
+
 	return (
 		<div className="AccessibilityC">
 
@@ -18,8 +24,11 @@ const Accessibility = () => {
 				</div>
 			</div>
 
-			<div className="Theme">
-				<a href="#">Dark Mode</a>
+			<div className="DarkMode__toggle">
+				<div
+					onClick={toggleDarkMode}
+					className={darkMode ? 'toggle toggled' : 'toggle'}
+				/>
 			</div>
 
 		</div>

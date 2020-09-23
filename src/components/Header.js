@@ -3,12 +3,6 @@ import React from 'react';
 
 const Header = () => {
 
-	// Get the header
-	var header = document.getElementById("HeaderC");
-
-	console.log(header);
-
-
 	return (
 		<div className="HeaderC">
 
